@@ -26,7 +26,6 @@ steps:
   inputs:
     SonarCloud: 'SonarQube'
     organization: 'willmacaulay'
-    scannerMode: 'MSBuild'
     projectKey: 'WillMacaulay_myApp1'
     projectName: 'WillMacaulay_myApp1'
 
