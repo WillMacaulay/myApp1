@@ -22,7 +22,7 @@ steps:
     restoreSolution: '$(solution)'
 
 - task: SonarCloudPrepare@1
-  displayName: 'Prepare analysis configuration'
+  displayName: 'SonarQube - Prepare analysis configuration'
   inputs:
     SonarCloud: 'SonarQube'
     organization: 'willmacaulay'
