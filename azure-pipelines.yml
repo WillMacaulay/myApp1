@@ -25,7 +25,7 @@ steps:
   displayName: 'Prepare analysis configuration'
   inputs:
     SonarCloud: 'SonarQube'
-    organization: 'WillMacaulay'
+    organization: 'willmacaulay'
     scannerMode: 'MSBuild'
     projectKey: 'myApp1'
     projectName: 'myApp1'
