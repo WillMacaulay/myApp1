@@ -13,6 +13,7 @@ variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
+  appName : 'WillMacaulay_myApp1' 
 
 steps:
 - task: NuGetToolInstaller@1
