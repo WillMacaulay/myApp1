@@ -14,12 +14,6 @@ variables:
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
-parameters:
-    - name: appName
-      displayName: Application Name
-      type: string
-      default: WillMacaulay_myApp1
-
 steps:
 - task: NuGetToolInstaller@1
 
