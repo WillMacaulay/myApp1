@@ -13,7 +13,8 @@ variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
-
+  System.Debug: true
+    
 steps:
 - task: NuGetToolInstaller@1
 
