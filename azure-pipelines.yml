@@ -33,4 +33,4 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task:  whitesource.ws.bolt.bolt.wss.WhiteSource Bolt@21
+- task:  whitesource.ws-bolt.bolt.wss.WhiteSource Bolt@21
