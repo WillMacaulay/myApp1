@@ -34,4 +34,8 @@ steps:
     configuration: '$(buildConfiguration)'
 
 #- task:  whitesource.ws-bolt.bolt.wss.WhiteSource Bolt@21
-- task:  whitesource whitesource.WhiteSource-azure-devops-services.bolt.wss.WhiteSource@21
+#- task:  whitesource whitesource.WhiteSource-azure-devops-services.bolt.wss.WhiteSource@21
+
+- task: WhiteSource@21
+  inputs:
+    cwd: '$(System.DefaultWorkingDirectory)'
